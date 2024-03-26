@@ -52,3 +52,7 @@ Non-trainable params: 512 (2.00 KB)
 
 
 _________________________________________________________________
+
+# Train 
+![image](https://github.com/BerezinDaniil/Setting_accents/assets/78606208/ac2a7d51-5cab-4f06-8363-1bb10144c019)
+
