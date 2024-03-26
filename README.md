@@ -6,24 +6,24 @@
 _________________________________________________________________
  Layer (type)                Output Shape              Param   
 =================================================================
- text_vectorization (TextVe  (None, None)              0         
- ctorization)                                                    
-                                                                 
- embedding (Embedding)       (None, None, 256)         8960      
-                                                                 
- batch_normalization (Batch  (None, None, 256)         1024      
- Normalization)                                                  
-                                                                 
- bidirectional (Bidirection  (None, None, 256)         394240    
- al)                                                             
-                                                                 
- dropout (Dropout)           (None, None, 256)         0         
-                                                                 
- bidirectional_1 (Bidirecti  (None, None, 128)         164352    
- onal)                                                           
-                                                                 
- bidirectional_2 (Bidirecti  (None, None, 128)         98816     
- onal)                                                           
+ text_vectorization (TextVe | (None, None)         |     0         
+ ctorization)               |                      |               
+                            |                      |               
+ embedding (Embedding)      | (None, None, 256)    |     8960      
+                            |                      |               
+ batch_normalization (Batch | (None, None, 256)    |     1024      
+ Normalization)             |                      |              
+                            |                      |             
+ bidirectional (Bidirection | (None, None, 256)    |     394240    
+ al)                        |                      |               
+                            |                      |               
+ dropout (Dropout)          | (None, None, 256)    |     0         
+                            |                      |               
+ bidirectional_1 (Bidirecti |(None, None, 128)     |    164352    
+ onal)                      |                      |               
+                            |                      |               
+ bidirectional_2 (Bidirecti | (None, None, 128)    |     98816     
+ onal)                      |                      |             
                                                                  
  dropout_1 (Dropout)         (None, None, 128)         0         
                                                                  
