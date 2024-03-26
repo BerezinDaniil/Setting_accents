@@ -19,15 +19,12 @@
  dense_1 (Dense)        |     (None, 32)       |         2080                                                
  dropout_3 (Dropout)     |    (None, 32)      |          0                                                            
  dense_2 (Dense)        |     (None, 16)      |          528                                                          
-=================================================================
 
+### Total params: 875888 (3.34 MB)
 
-# Total params: 875888 (3.34 MB)
+### Trainable params: 875376 (3.34 MB)
 
-# Trainable params: 875376 (3.34 MB)
-
-# Non-trainable params: 512 (2.00 KB)
-
+### Non-trainable params: 512 (2.00 KB)
 
 _________________________________________________________________
 
