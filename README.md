@@ -11,23 +11,18 @@
  dropout (Dropout)          | (None, None, 256)    |     0                     
  bidirectional_1 (Bidirectional) |  (None, None, 128)     |    164352              
  bidirectional_2 (Bidirectional)   | (None, None, 128)    |     98816         
- dropout_1 (Dropout)     |    (None, None, 128)     |    0         
+ dropout_1 (Dropout)     |    (None, None, 128)     |    0                                                                    
+ bidirectional_3 (Bidirectional) |  (None, None, 128)    |     98816                                       
+ bidirectional_4 (Bidirectional) |  (None, 128)        |       98816                                                             
+ dropout_2 (Dropout)     |    (None, 128)        |       0         
                                                                  
- bidirectional_3 (Bidirecti  (None, None, 128)         98816     
- onal)                                                           
+ dense (Dense)          |     (None, 64)        |        8256      
                                                                  
- bidirectional_4 (Bidirecti  (None, 128)               98816     
- onal)                                                           
+ dense_1 (Dense)        |     (None, 32)       |         2080      
                                                                  
- dropout_2 (Dropout)         (None, 128)               0         
+ dropout_3 (Dropout)     |    (None, 32)      |          0         
                                                                  
- dense (Dense)               (None, 64)                8256      
-                                                                 
- dense_1 (Dense)             (None, 32)                2080      
-                                                                 
- dropout_3 (Dropout)         (None, 32)                0         
-                                                                 
- dense_2 (Dense)             (None, 16)                528       
+ dense_2 (Dense)        |     (None, 16)      |          528       
                                                                  
 =================================================================
 
